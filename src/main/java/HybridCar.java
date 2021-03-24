@@ -1,6 +1,6 @@
 public class HybridCar extends Vehicle{
 
-    public HybridCar(String colour, int price, Engine engine){
-        super(colour, price, engine);
+    public HybridCar(String model, String colour, int price, Engine engine){
+        super(model, colour, price, engine);
     }
 }

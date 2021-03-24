@@ -8,6 +8,6 @@ public class ElectricCarTest {
     @Before
     public void before(){
         engine = new Engine("hybird");
-        electricCar = new ElectricCar("White", 10000, engine);
+        electricCar = new ElectricCar("Tesla", "White", 10000, engine);
     }
 }

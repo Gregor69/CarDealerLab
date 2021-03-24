@@ -3,8 +3,8 @@
 public class ElectricCar extends Vehicle  {
 
 
-    public ElectricCar(String colour, int price, Engine engine){
-        super(colour, price, engine);
+    public ElectricCar(String model, String colour, int price, Engine engine){
+        super(model, colour, price, engine);
     }
 
 

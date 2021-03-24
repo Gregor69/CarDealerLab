@@ -19,8 +19,7 @@ public class EngineTest {
     }
 
     @Test
-    public void setName(){
-        engine.setName("hybrid");
-        assertEquals("hybrid", engine.getName());
+    public void getName(){
+        assertEquals("petrol", engine.getName());
     }
 }
